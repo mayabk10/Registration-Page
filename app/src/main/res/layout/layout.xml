@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:textSize="200px"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="user name"
+        android:textAlignment="center"
+        android:textSize="100px"
+        android:layout_marginTop="50px"
+        android:id="@+id/e1"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:text="password"
+        android:textAlignment="center"
+        android:textSize="100px"
+        android:id="@+id/e2"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mail"
+        android:textAlignment="center"
+        android:textSize="100px"
+        android:id="@+id/e3"
+        />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="100px"
+    android:text="send"
+    android:layout_gravity="center"
+    android:layout_marginTop="50px"
+    android:id="@+id/b1"
+    />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/aaa"
+       android:text="user name : \n password : \n mail : "
+       android:textSize="100px"
+       android:layout_gravity="center"
+
+       />
+
+
+</LinearLayout>
